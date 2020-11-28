@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-const Header = () => {
+const Home = () => {
     const classes = useStyles();
 
     return (
@@ -40,7 +40,7 @@ const Header = () => {
                 <Avatar className={classes.avatar} src={avatar} alt="Ge Wang" />
             </Grid>
             <Typography className={classes.title} variant="h4">
-                <Typed strings={["Ge Wang"]} typeSpeed={40} />
+                <Typed strings={["Ge Wang(Gary)"]} typeSpeed={40} />
             </Typography>
 
             <Typography className={classes.subtitle} variant="h5">
@@ -60,4 +60,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Home;
