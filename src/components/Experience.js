@@ -6,7 +6,7 @@ import "../styles/Experience.css";
 
 const useStyles = makeStyles((theme) => ({
     mainContainer: {
-        background: "#233",
+        // background: "#233",
         // background: "white",
     },
     timeLine: {

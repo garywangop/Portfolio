@@ -6,6 +6,7 @@ import Box from "@material-ui/core/Box";
 import Typed from "react-typed";
 import { makeStyles } from "@material-ui/core/styles";
 import avatar from "../assets/images/avatar.png";
+import "../styles/Home.css";
 
 const useStyles = makeStyles((theme) => ({
     avatar: {
