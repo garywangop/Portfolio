@@ -5,7 +5,8 @@ import Topbar from "./Topbar";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Home from "./Home";
 import Experience from "./Experience";
-import Project from "./Project"
+import Project from "./Project";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
               <Route exact path="/" component={Home} />
               <Route exact path="/experience" component={Experience} />
               <Route exact path="/project" component={Project} />
+              <Route exact path="/contact" component={Contact}/>
           </Switch>
       </React.Fragment>
   );
