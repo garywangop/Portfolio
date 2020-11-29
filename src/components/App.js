@@ -8,7 +8,7 @@ import Experience from "./Experience";
 import Project from "./Project";
 import Contact from "./Contact";
 import "../styles/App.css";
-import Animation from "./Animation"
+import Animation from "./Animation";
 
 function App() {
   return (
