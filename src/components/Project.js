@@ -25,7 +25,8 @@ const useStyles = makeStyles((theme) => ({
     },
     cardContainer: {
         maxWidth: 345,
-        margin: "3rem auto",
+        margin: "5rem auto",
+
     },
 }));
 

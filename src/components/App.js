@@ -18,9 +18,10 @@ function App() {
           <Animation/>
           <Switch>
               <Route exact path="/" component={Home} />
-              <Route exact path="/experience" component={Experience} />
-              <Route exact path="/project" component={Project} />
-              <Route exact path="/contact" component={Contact}/>
+              <Route path="/portfolio" component={Home}/>
+              <Route path="/experience" component={Experience} />
+              <Route path="/project" component={Project} />
+              <Route path="/contact" component={Contact}/>
           </Switch>
       </React.Fragment>
   );
