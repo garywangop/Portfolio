@@ -17,6 +17,7 @@ import project3 from "../assets/images/monkey.jpeg";
 import project4 from "../assets/images/monkey.jpeg";
 import project5 from "../assets/images/monkey.jpeg";
 import project6 from "../assets/images/monkey.jpeg";
+import ProjectDetail from "./ProjectDetail"
 
 const useStyles = makeStyles((theme) => ({
     mainContainer: {
