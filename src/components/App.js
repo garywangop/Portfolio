@@ -9,7 +9,6 @@ import Project from "./Project";
 import Contact from "./Contact";
 import "../styles/App.css";
 import Animation from "./Animation";
-import ProjectDetail from "./ProjectDetail"
 
 function App() {
   return (
@@ -23,7 +22,6 @@ function App() {
               <Route path="/experience" component={Experience} />
               <Route path="/project" component={Project} />
               <Route path="/contact" component={Contact}/>
-              <Route path="/pd" component={ProjectDetail}/>
           </Switch>
       </React.Fragment>
   );
