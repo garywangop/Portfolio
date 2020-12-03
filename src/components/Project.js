@@ -11,11 +11,11 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
 
-import project1 from "../assets/images/monkey.jpeg";
-import project2 from "../assets/images/monkey.jpeg";
-import project3 from "../assets/images/monkey.jpeg";
-import project4 from "../assets/images/monkey.jpeg";
-import project5 from "../assets/images/monkey.jpeg";
+import project1 from "../assets/images/full-stack.png";
+import project2 from "../assets/images/backend.jpg";
+import project3 from "../assets/images/full-stack.png";
+import project4 from "../assets/images/frontend.jpg";
+import project5 from "../assets/images/android.png";
 
 const useStyles = makeStyles((theme) => ({
     mainContainer: {
