@@ -124,6 +124,68 @@ const Experience = () => {
                     variant="h2"
                     className={`${classes.timeLineYear} ${classes.timeLineItem}`}
                 >
+                    Present
+                </Typography>
+                <Box component="div" className={classes.timeLineItem}>
+                    <Typography
+                        variant="h5"
+                        align="center"
+                        className={classes.subHeading}
+                    >
+                        Software engineer
+                    </Typography>
+                    <Typography variant="body1" align="center" className={classes.body1}>
+                        Amazon
+                    </Typography>
+                    <Typography
+                        variant="subtitle1"
+                        align="center"
+                        className={classes.subtitle1}
+                    >
+                        <ul className="form-style">
+                            <li>Developed a self service merchandising portal for vendors to order advertising campaigns across 12 marketplaces.</li>
+                            <li>Developed an internal admin portal for marketing managers to manage product category and placement metadata.</li>
+                            <li>Used ReactJS as frontend framework, Spring Boot as backend framework, and DynamoDB as database for both
+                                vendor portal and admin portal.</li>
+                            <li>Migrated legacy systems from internal environment to native AWS.</li>
+                            <li>Collaborated with other teams to enable language of preference feature in Saudi Arabia.</li>
+                        </ul>
+                    </Typography>
+                </Box>
+                <Typography
+                    variant="h2"
+                    className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+                >
+                    2021
+                </Typography>
+                <Box component="div" className={classes.timeLineItem}>
+                    <Typography
+                        variant="h5"
+                        align="center"
+                        className={classes.subHeading}
+                    >
+                        Software engineer
+                    </Typography>
+                    <Typography variant="body1" align="center" className={classes.body1}>
+                        Golden Source Capital Inc
+                    </Typography>
+                    <Typography
+                        variant="subtitle1"
+                        align="center"
+                        className={classes.subtitle1}
+                    >
+                        <ul className="form-style">
+                            <li>Developed a cryptocurrency trading platform to support customers trading cryptocurrencies and anticipating a
+                                variety of promotional activities.</li>
+                            <li>Designed and implemented full stack web applications like cloud mining, exchange mining, and notification services, which included using Vue.js as frontend framework, and Spring Boot as backend framework.</li>
+                            <li>Wrote unit test with Junit and collaborated with other team members to manual test web applications.</li>
+                        </ul>
+                    </Typography>
+                </Box>
+                <Typography
+                    variant="h2"
+                    className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+                >
                     2020
                 </Typography>
                 <Box component="div" className={classes.timeLineItem}>
